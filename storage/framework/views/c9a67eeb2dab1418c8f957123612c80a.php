@@ -1,0 +1,1 @@
+<?php echo e($nomUsuari); ?><?php /**PATH /app/resources/views/prueba.blade.php ENDPATH**/ ?>

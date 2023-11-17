@@ -1,0 +1,1 @@
+<?php echo e($titol); ?><?php /**PATH /app/resources/views/signup.blade.php ENDPATH**/ ?>
