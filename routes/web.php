@@ -14,6 +14,9 @@ use App\Http\Controllers\SignController;
 |
 */
 Route::prefix('Joel')->group(function(){
-    Route::get('/signin/{dato1}/{dato2}/{dato3}/{dato4}', [SignController::class,'signin']);
-    Route::get('/signup/{dato1}/{dato2}/{dato3}', [SignController::class,'signup']);
+    Route::get('/signin', [SignController::class,'signin'])->name('signin');
+    Route::get('/signup', [SignController::class,'signup'])->name('signup');
+});
+Route::prefix('metodepost')->group(function(){
+    Route::post('products', [SignController::class, 'products'])->name('products');
 });
